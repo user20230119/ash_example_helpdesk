@@ -1,2 +1,5 @@
-mix igniter.new helpdesk --install ash,ash_postgres --with phx.new --extend postgres --example
-mix igniter.install ash_postgres
+- Run `mix igniter.new helpdesk --install ash,ash_postgres --with phx.new --extend postgres --example`
+- Run `mix igniter.install ash_postgres`
+- Add AshPostgres.DataLayer
+- Run `mix ash.setup`
+- Run `mix ash.codegen initial_migration`
